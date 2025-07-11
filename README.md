@@ -24,7 +24,7 @@ A real-time sign language recognition system built using **YOLOv5** for object d
 - **Flask**-allows users to interact through a browser
 - **Docker**-builds a container image of your app so it can run identically on EC2, your laptop, or anyone else's system.
 - **AWS EC2**-runs the Flask server + YOLO model using Docker, exposing it publicly for others to use/test via the internet.
-- 
+
 
 
 
