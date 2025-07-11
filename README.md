@@ -1,2 +1,30 @@
-# Sign-Language-Detection
-The main point of this application is to use the camera to recognize gestures from the sign language to offer a new means of communication. The program will be able to transcribe gestures done by dumb people into written words printed on the screen.
+# 🤟 Sign Language Detection using YOLOv5
+
+A real-time sign language recognition system built using **YOLOv5** for object detection and **OpenCV** for dataset creation. The project also includes a modular **training & prediction pipeline**, a **Flask-based web application**, and deployment via **Docker** and **GitHub Actions** to **AWS**.
+
+---
+
+## 🚀 Features
+
+- 🖐️ **Sign Language Detection** using YOLOv5
+- 🎥 **Custom Dataset Creation** using OpenCV
+- 🧱 **Modular Code Structure** for training & prediction
+- 🌐 **Flask Web App** for real-time webcam gesture recognition
+- 🐳 **Dockerized Pipeline** for easy environment setup
+- ☁️ **AWS Deployment** using EC2
+- 🔁 **CI/CD Integration** using GitHub Actions
+
+---
+
+## 🛠️ Tech Stack
+
+- **Python 3.8+**
+- **YOLOv5**- for image detection
+- **OpenCV**- dataset creation
+- **Flask**-allows users to interact through a browser
+- **Docker**-builds a container image of your app so it can run identically on EC2, your laptop, or anyone else's system.
+- **AWS EC2**-runs the Flask server + YOLO model using Docker, exposing it publicly for others to use/test via the internet.
+- 
+
+
+
