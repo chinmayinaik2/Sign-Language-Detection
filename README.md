@@ -18,7 +18,7 @@ A real-time sign language recognition system built using **YOLOv5** for object d
 
 ## 🛠️ Tech Stack
 
-- **Python 3.8+**
+- **Python 3.7**(stable version)
 - **YOLOv5**- for image detection
 - **OpenCV**- for dataset creation
 - **Flask**- launches a Flask server that hosts the live detection model — so users can interact through a browser.
