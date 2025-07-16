@@ -1,30 +1,29 @@
-# 🤟 Sign Language Detection using YOLOv5
-
-A real-time sign language recognition system built using **YOLOv5** for object detection and **OpenCV** for dataset creation. The project also includes a modular **training & prediction pipeline**, a **Flask-based web application**, and deployment via **Docker** and **GitHub Actions** to **AWS**.
-
----
-
-## 🚀 Features
-
-- 🖐️ **Sign Language Detection** using YOLOv5
-- 🎥 **Custom Dataset Creation** using OpenCV
-- 🧱 **Modular Code Structure** for training & prediction
-- 🌐 **Flask Web App** for real-time webcam gesture recognition
-- 🐳 **Dockerized Pipeline** for easy environment setup
-- ☁️ **AWS Deployment** using EC2
-- 🔁 **CI/CD Integration** using GitHub Actions
-
----
-
-## 🛠️ Tech Stack
-
-- **Python 3.7**(stable version)
-- **YOLOv5**- for image detection
-- **OpenCV**- for dataset creation
-- **Flask**- launches a Flask server that hosts the live detection model — so users can interact through a browser.
-- **Docker**-builds a container image of your app so it can run identically on EC2, your laptop, or anyone else's system.
-- **AWS EC2**-EC2 runs our Flask server + YOLO model using Docker, exposing it publicly for others to use/test via the internet.
+# Sign-Language-Detection-Project-Yolov5
 
 
+### 1. Create environment
+
+```bash
+conda create -n sign-dec python=3.7 -y
+
+```
+
+### Label Img tool:
+
+1. https://github.com/heartexlabs/labelImg
+
+2. [exe](https://github.com/entbappy/Sign-Language-Generation-From-Video-using-YOLOV5/raw/master/Annotation%20Tool/labelImg.exe)
+
+[G-Drive](https://drive.google.com/drive/folders/18AIDI4pOAcYC-zSCPpYvRxWaydjOqS1W?usp=sharing)
 
 
+### Yolov5
+
+https://github.com/ultralytics/yolov5
+
+
+## Installation of yolov5 locally
+
+```bash
+pip install -r yolov5/requirements.txt
+```
